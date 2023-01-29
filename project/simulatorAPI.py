@@ -847,8 +847,6 @@ def game_loop(args):
             world.move(sim_time)
             world.render(display)
             pygame.display.flip()
-    except Exception as ex:
-        print(ex)
 
     finally:
 
